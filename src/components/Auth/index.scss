@@ -1,0 +1,33 @@
+.auth-form {
+  background-color: azure;
+  display: flex;
+  padding: 1.25rem;
+  flex-direction: column;
+  border-radius: 4px;
+  align-items: center;
+  height: 55%;
+  max-height: 800px;
+}
+.form-inform {
+  text-align: center;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.form-h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.inputs {
+  margin: 2rem;
+}
+@media (max-width: 600px) {
+  .auth-form {
+    height: 80%;
+  }
+  .form-container {
+    width: 90%;
+  }
+}

@@ -1,0 +1,24 @@
+.item-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  > span {
+    font-size: 1.5rem;
+    margin-top: 3px;
+    word-break: break-word;
+    text-align: center;
+  }
+}
+@media (min-width: 1000px) {
+  .item-card {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    > span {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

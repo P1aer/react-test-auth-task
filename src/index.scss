@@ -1,0 +1,21 @@
+html {
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-height: 700px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1200px) and (min-height: 701px) {
+  html {
+    font-size: 20px;
+  }
+}
